@@ -1,4 +1,7 @@
-flask
-anthropic
-pillow
-gunicorn
+streamlit>=1.40
+anthropic>=0.39
+pillow>=10
+
+# Flask 版本(原版,可用 python app.py 起)依赖
+flask>=3.0
+gunicorn>=21.2
